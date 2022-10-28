@@ -1,10 +1,4 @@
 
-
-# -*- coding: utf-8 -*-
-"""
-@author: Krish.Naik
-"""
-
 ## MAlaria Detection using Transfer Learning
 
 # Download The Dataset from 
