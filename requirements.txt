@@ -1,5 +1,6 @@
 Flask
 Flask-Cors
+gunicorn
 ipykernel
 ipython
 jupyter
@@ -17,6 +18,7 @@ scipy
 seaborn
 sklearn
 tensorflow-cpu
+werkzeug
 
 
 
