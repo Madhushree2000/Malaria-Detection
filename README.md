@@ -4,7 +4,9 @@
 
 *Malaria is a mosquito-borne infectious disease that affects humans and other animals. Malaria causes symptoms that typically include fever, tiredness, vomiting, and headaches. In severe cases it can cause yellow skin, seizures, coma, or death. Symptoms usually begin ten to fifteen days after being bitten by an infected mosquito.*
 
+## Objective
 
+The current standard method for malaria diagnosis in the field is light microscopy of blood films. About 170 million blood films are examined every year for malaria, which involves manual counting of parasites. To improve the accuracy and speed of this testing, the project aims to distinguish Malaria infected human blood cells from the normal ones.
 
 ## Dataset 
 
@@ -18,8 +20,8 @@ The dataset contains 2 folders
 <div align="center">
 <table>
   <tr>
-    <td width="50%"> <img src = "./Images/Infected_1.png" width="100%"><br>(a) </td>
-    <td width="50%"> <img src = "./Images/Infected_2.png" width="100%"><br>(b) </td>
+    <td width="50%"> <img src = "./Images/Infected_1.png" width="200%"><br>(a) </td>
+    <td width="50%"> <img src = "./Images/Infected_2.png" width="200%"><br>(b) </td>
   </tr>
 </table>
 <p>(a), (b) Sample images of parasitized human blood cells.</p>
@@ -45,7 +47,7 @@ And a total of 27,558 images of cells from different blood films for analysing a
 ## Methodology
 
 ### VGG19
-VGG-19 is a 19-layer convolutional neural network. The ImageNet database contains a pretrained version of the network that has been trained on more than a million images. The pretrained network can categorise images into 1000 different item categories, including several animals, a keyboard, a mouse, and a pencil.
+VGG-19 is a 19-layer convolutional neural network. The ImageNet database contains a pretrained version of the network that has been trained on more than a million images. The pretrained network can categorise images into 1000 different item categories, including several animals, a keyboard, a mouse, and a pencil. The VGG19 model has been used in the project as a feature extractor.
 
 <div align="center">
 <img src = "./Images/VGG19.jpg" width="100%">
